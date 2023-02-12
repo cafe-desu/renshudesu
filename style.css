@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Kosugi');
+ #sikumi{
+  text-align: right; 
+    font-size: 20px;
+    height: 1rem;
+    max-width: 500px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+body{
+    background: #e0e5ec;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 10rem;
+    text-align: center;
+    font-family: 'Kosugi', sans-serif;
+    font-size: 50px
+}
+#question1{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#yes {
+    background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+  }
+  #yes span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Kosugi', sans-serif;
+  }
+  #yes:before,
+  #yes:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  #yes:before {
+    height: 0%;
+    width: 2px;
+  }
+  #yes:after {
+    width: 0%;
+    height: 2px;
+  }
+  #yes:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  #yes:hover:before {
+    height: 100%;
+  }
+  #yes:hover:after {
+    width: 100%;
+  }
+  #yes span:hover{
+     color: rgba(2,126,251,1);
+  }
+  #yes span:before,
+  #yes span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  #yes span:before {
+    width: 2px;
+    height: 0%;
+  }
+  #yes span:after {
+    width: 0%;
+    height: 2px;
+  }
+  #yes span:hover:before {
+    height: 100%;
+  }
+  #yes span:hover:after {
+    width: 100%;
+  }
+  button {
+    margin: 20px;
+  }
+  button{
+        width: 130px;
+        height: 40px;
+        color: #fff;
+        border-radius: 5px;
+        padding: 10px 25px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+         box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+         7px 7px 20px 0px rgba(0,0,0,.1),
+         4px 4px 5px 0px rgba(0,0,0,.1);
+        outline: none;
+  }
+  #no {
+    background: rgb(0,172,238);
+  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    
+    
+  }
+  #no span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  #no:before,
+  #no:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  #no:before {
+    height: 0%;
+    width: 2px;
+  }
+  #no:after {
+    width: 0%;
+    height: 2px;
+  }
+  #no:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  #no:hover:before {
+    height: 100%;
+  }
+  #no:hover:after {
+    width: 100%;
+  }
+  #no span:hover{
+     color: rgba(2,126,251,1);
+  }
+  #no span:before,
+  #no span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: rgba(2,126,251,1);
+    transition: all 0.3s ease;
+  }
+  #no span:before {
+    width: 2px;
+    height: 0%;
+  }
+  #no span:after {
+    width: 0%;
+    height: 2px;
+  }
+  #no span:hover:before {
+    height: 100%;
+  }
+  #no span:hover:after {
+    width: 100%;
+  }
+ 
+
