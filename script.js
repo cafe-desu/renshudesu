@@ -19,7 +19,7 @@ function kasan (){
 function genzan(){
     bunki += 1;
 }
-
+window.onload().mondai.innerText = "読み込みました￥"
 function hikaku(){
     if (answer === 0 && bunki === 0){
         window.onload().mondai.innerText = question[0];
