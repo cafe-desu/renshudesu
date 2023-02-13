@@ -19,7 +19,7 @@ function kasan (){
 function genzan(){
     bunki += 1;
 }
-window.onload().mondai.innerText = "読み込みました￥"
+window.onload().mondai.innerText = "読み込みました"
 function hikaku(){
     if (answer === 0 && bunki === 0){
         window.onload().mondai.innerText = question[0];
@@ -31,8 +31,8 @@ function hikaku(){
         window.onload().mondai.innerText = `答えは${tercher[1]}`;
     }else if (answer === 2 && bunki === 1 && tokushu ===0){
         window.onload().mondai.innerText = question[1];
-        tokushu = 2;
-    }else if (answer === 2 && bunki === 2 && bunki === 2;){
+        tokushu = 2 ;
+    }else if (answer === 2 && bunki === 2 && tokushu === 2;){
         window.onload().mondai.innerText = `答えは${tercher[4]}`;
     }else if (answer === 3 && bunki === 1 && tokushu === 2){
         window.onload().mondai.innerText = `答えは${tercher[2]}`;
