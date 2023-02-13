@@ -31,9 +31,9 @@ function hikaku(){
     }else if (answer === 2 && bunki === 1 && tokushu ===0){
         window.onload().mondai.innerText = question[1];
         tokushu = 2 ;
-    }else if (answer === 2 && bunki === 2 && tokushu === 2;){
+    }else if (answer === 2 && bunki === 2 && tokushu === 2){
         window.onload().mondai.innerText = `答えは${tercher[4]}`;
-    }else if (answer === 3 && bunki === 1 && tokushu === 2){
+    }else if (answer === 3 && bunki === 1 && tokushu ===2){
         window.onload().mondai.innerText = `答えは${tercher[2]}`;
     }
     else if(answer === 1 && bunki ===1 && tokushu ===0){
