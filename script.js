@@ -25,23 +25,23 @@ function hikaku(){
         window.onload().mondai.innerText = question[0];
     }else if (answer === 1 && bunki === 0 && tokushu ===0){
         window.onload().mondai.innerText = question[8];
-        tokushu += 1
     }else if (answer === 2 && bunki === 0 && tokushu ===0){
         window.onload().mondai.innerText = question[9];
     }else if (answer === 3 && bunki === 0 && tokushu ===0){
         window.onload().mondai.innerText = `答えは${tercher[1]}`;
     }else if (answer === 2 && bunki === 1 && tokushu ===0){
         window.onload().mondai.innerText = question[1];
-    }else if (answer === 2 && bunki === 2){
+        tokushu = 1;
+    }else if (answer === 2 && bunki === 2 && bunki === 1;){
         window.onload().mondai.innerText = `答えは${tercher[4]}`;
-    }else if (answer === 3 && bunki === 1){
+    }else if (answer === 3 && bunki === 1 && tokushu === 1){
         window.onload().mondai.innerText = `答えは${tercher[2]}`;
     }
     else if(answer === 1 && bunki ===1 && tokushu ===0){
         window.onload().mondai.innerText = question[9];
     }else if(answer === 1 && bunki ===2 && tokushu ===0){
         window.onload().mondai.innerText = question[10];
-    }else if(answer === 2 && bunki === 2 && tokushu ===1){
+    }else if(answer === 2 && bunki === 2 && tokushu === 0){
         window.onload().mondai.innerText = `答えは${tercher[3]}`;
     }else if(answer === 0 && bunki === 1 && tokushu ===0){
         window.onload().mondai.innerText = question[11];
