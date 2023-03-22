@@ -80,7 +80,7 @@ if (random > 20 && random < 51){
     element.classList.add("nijiiro")
 }
 if ( random === 100){
-    for(let i=0; i<100; i++){
+    for(let i=0; i<500; i++){
         let element = document.getElementById("gazou");
         var new_element = document.createElement('h1');
         new_element.textContent = 'はずれ';
