@@ -1,4 +1,4 @@
-let random = 100
+let random =Math.floor(Math.random() * 101)
 console.log(random)
 if (random < 21){
     particlesJS("particles-js",{
